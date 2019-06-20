@@ -1,5 +1,4 @@
-
-while you run below  wrapper script it will prompt enter your apikey 
+Run below  wrapper script will prompt enter apikey 
 
                        sh setup-getmacid.sh  
 
