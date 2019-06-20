@@ -21,7 +21,7 @@ else
 fi
 
 #getting apikey from user input
-read -p " Enter the apikey or Help: " firstargument
+read -p " Enter the apikey : " firstargument
 
 if  [ "$firstargument" == "Help" ]
 
@@ -37,7 +37,7 @@ read -p "Enter the Field Name : " fieldname
 while IFS= read -r line
 
 do
-        curl -Gs "https://api.macaddress.io/v1?apiKey=$apikey&output=json&search=$1"$line | jq ".$fieldname "
+        curl -Gs "https://api.macaddress.io/v1?apiKey=$firstargument&output=json&search=$1"$line | jq ".$fieldname "
 
 done < "$filepath"
 exit
