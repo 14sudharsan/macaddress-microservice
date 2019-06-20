@@ -21,9 +21,9 @@ else
 fi
 
 #getting apikey from user input
-read -p " Enter the apikey : " apikey
+read -p " Enter the apikey or Help: " firstargument
 
-if  [ "$apikey" == "help" ]
+if  [ "$firstargument" == "Help" ]
 
 then
         cat $cwd/help_page
