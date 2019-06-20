@@ -37,7 +37,7 @@ Here having wrapper script <setup-getmacid.sh> to automate the docker image buil
 
    
 
- If user found any difficult run the script when user type Help it will show READme.md file
+ If user found any difficult run the script when user type Help it will show README.md file
     
                                         enter apikey: help
      
