@@ -1,3 +1,12 @@
+
+when you run below  wrapper script it will  prompt the apikey and enter your apikey 
+
+                       sh setup-getmacid.sh  
+
+                       enter apikey: <your apikey>
+                       
+                       enter Field name: <Please use with below options >
+
 Options: For Field name
  
  - vendorDetails
